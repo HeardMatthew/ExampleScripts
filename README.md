@@ -18,29 +18,40 @@ I displayed my first poster at the annual CCBS Fall Retreat. In this repository 
 
 Unfortunately, a substantial amount of code I used during this project has been lost--our lab has since changed computers used to analyze fMRI data. The Matlab code I used to automatically preprocess files in BrainVoyager did not survive the migration. My contribution to this code was similar to the above projects; I adjusted paths in an already existing pipeline. I made some changes in preprocessing options. I also recall spending a fair amount of time debugging some for loops that were not running correctly. 
 
-<h3>Miscellaneous Code:</h3> 
+<h3>Miscellaneous Code</h3> 
 I've included some simple codes I created from scratch when I first started learning Matlab in 2014 and Python in 2016. These include: 
 
-   Dice.m : a script used to roll any (interger) number of dice with any (interger) number of sides. 
+   <h4>Dice.m : </h4>
+   a script used to roll any (interger) number of dice with any (interger) number of sides. 
 
-   QuadraticSolver.m : a script to solve a quadratic equation. 
+   <h4>QuadraticSolver.m : </h4>
+   a script to solve a quadratic equation. 
 
-   digit_sum.py : a script to define two functions: digit_sum(n) and digit_root(n). The former sums all numbers from 1 to n, while the other calculates the digital root of n. 
+   <h4>digit_sum.py : </h4>
+   a script to define two functions: digit_sum(n) and digit_root(n). The former sums all numbers from 1 to n, while the other calculates the digital root of n. 
 
-   fib.py : a script to generate a list of the Fibonnaci sequence from its first term to its nth term. 
+   <h4>fib.py : </h4>
+   a script to generate a list of the Fibonnaci sequence from its first term to its nth term. 
 
-   puzzle.py : a script I wrote inspired by the following riddle: http://mindyourdecisions.com/blog/2016/07/03/distance-between-two-random-points-in-a-square-sunday-puzzle/. The first function sim_squ_trials(n) calculates the average from n trials the distance between two random points within a square with side lengths 1. The second function sim_circumf_trials(n) calculates the average from n trials the distance between two random points along a unit circle. The third function sim_circ_trials(n) calculates the average from n trials the distance between two random points within a unit circle. 
+   <h4>puzzle.py : <h4>
+   a script I wrote inspired by the following riddle: http://mindyourdecisions.com/blog/2016/07/03/distance-between-two-random-points-in-a-square-sunday-puzzle/. The first function sim_squ_trials(n) calculates the average from n trials the distance between two random points within a square with side lengths 1. The second function sim_circumf_trials(n) calculates the average from n trials the distance between two random points along a unit circle. The third function sim_circ_trials(n) calculates the average from n trials the distance between two random points within a unit circle. 
+
+<h3> Tutorials </h3>
 
 In addition to the work here, I have completed tutorials on the following topics:
    
-   MVPA analysis tutorial accompanying Sprague, T.C., Saproo, S. & Serences, J.T. (2015) Visual attention mitigates information loss in small- and large-scale neural codes. Trends in Cognitive Sciences. Tutorial found at http://serenceslab.ucsd.edu/reviews.html. I have included the code I created while going through this tutorial:
+   <h4>MVPA tutorial:  </h4>
+   I completed the tutorial accompanying Sprague, T.C., Saproo, S. & Serences, J.T. (2015) Visual attention mitigates information loss in small- and large-scale neural codes. Trends in Cognitive Sciences. Tutorial found at http://serenceslab.ucsd.edu/reviews.html. I have included the code I created while going through this tutorial:
       
       Multivariate_tutorial.m
       
       Multivariate_tutorial_manyvariables.m
    
-   Chapter 1 of Michael A. Nielsen's "Neural Networks and Deep Learning". 
+   <h4>Neural Networks in Python </h4>
+   I read Chapter 1 of Michael A. Nielsen's "Neural Networks and Deep Learning". This textbook explains the basics to creating an artificial neural network and includes a guided tutorial to creating an artificial neural network capable of recognizing handwritten letters and numbers. 
    
-   Visionlab Matlab Tutorial from Konkle Lab. This tutorial introduced me to some basics with PsychToolbox and advanced my understanding of Matlab commands. I cannot find a link to download this tutorial. 
+   <h4> Matlab and PsychToolbox </h4>
+   I completed a Matlab tutorial from Konkle Lab. This tutorial introduced me to some basics with PsychToolbox and advanced my understanding of Matlab commands. Most undergraduates in Dr. Julie Golomb's lab learn how to code with Matlab using this tutorial. 
    
-   Codeacademy Python tutorial
+   <h4> Codeacademy Python tutorial </h4>
+   I completed the free Python tutorial from Codeacademy to develop my skills with Python.  
