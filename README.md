@@ -7,15 +7,19 @@ I displayed my first poster at the annual CCBS Fall Retreat. In this repository 
    <h4>plot_xyz_small_MH.m : </h4>
    Running this file creates the same graphics included under Experiment 1 Results of my poster. 
 
-   BMF_plotting_functions_MH_pathed_GitHub.m : Running this file creates the same graphs included under Experiment 2 Results of my poster. 
+   <h4>BMF_plotting_functions_MH_pathed_GitHub.m : </h4>
+   Running this file creates the same graphs included under Experiment 2 Results of my poster. 
 
-   withinSub_errorBars_pathed.m : This is a function called by the two plot codes. I changed a few paths within this file. 
+   <h4>withinSub_errorBars_pathed.m : </h4>
+   This is a function called by the two plot codes. I changed a few paths within this file. 
 
-   SEM_calc.m : This is a function called by the two plot codes. I made no changes to this file. 
+   <h4>SEM_calc.m : </h4>
+   This is a function called by the two plot codes. I made no changes to this file. 
 
 Unfortunately, a substantial amount of code I used during this project has been lost--our lab has since changed computers used to analyze fMRI data. The Matlab code I used to automatically preprocess files in BrainVoyager did not survive the migration. My contribution to this code was similar to the above projects; I adjusted paths in an already existing pipeline. I made some changes in preprocessing options. I also recall spending a fair amount of time debugging some for loops that were not running correctly. 
 
-Misc: I've included some simple codes I created from scratch when I first started learning Matlab in 2014 and Python in 2016. These include: 
+<h3>Miscellaneous Code:</h3> 
+I've included some simple codes I created from scratch when I first started learning Matlab in 2014 and Python in 2016. These include: 
 
    Dice.m : a script used to roll any (interger) number of dice with any (interger) number of sides. 
 
