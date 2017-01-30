@@ -4,16 +4,16 @@ This repository contains a collection of scripts I wrote during my undergraduate
 <h2>CCBS Fall Retreat Poster </h2>
 I displayed my first poster at the annual Center for Cognitive and Brain Sciences Fall Retreat in 2016. For this project, I analyzed data using Matlab and BrainVoyager and compared my results with those generated using AFNI by Dan Berman, a PhD student here in Dr. Julie Golomb's lab. In this repository I included a PDF copy of my poster and all the code I modified in order to create the figures featured in the results. I created the brain figures by hand using BrainVoyager and Adobe Illustrator. In addition, I modified an already existing Matlab code to generate the graphs. I contributed to this code mostly by adjusting file paths; originally the code pulled all the data off of a server we had set up at the lab. Included in this repository are the following relevant scripts:
 
-   <h4>plot_xyz_small_MH.m : </h4>
+      plot_xyz_small_MH.m :
    Running this file creates the same graphics included under Experiment 1 Results of my poster. The colors seen on the poster were added using Adobe Illustrator. 
-
-   <h4>BMF_plotting_functions_MH_pathed_GitHub.m : </h4>
+      
+      MF_plotting_functions_MH_pathed_GitHub.m :
    Running this file creates the same graphics included under Experiment 2 Results of my poster. The colors seen on the poster were added using Adobe Illustrator. 
 
-   <h4>withinSub_errorBars_pathed.m : </h4>
+      withinSub_errorBars_pathed.m :
    This is a function called by the two plot codes. I changed a few paths within this file. 
 
-   <h4>SEM_calc.m : </h4>
+      SEM_calc.m : 
    This is a function called by the two plot codes. I made <em>no</em> changes to this file. 
 
    <h4>fMRI data preprocessing :</h4>
