@@ -5,7 +5,6 @@ Here is a collection of scripts I have written during my undergraduate at The Oh
 I displayed my first poster at the annual CCBS Fall Retreat. In this repository I included a PDF copy of my poster and all the code I modified in order to create the results figures. The brain figures were created by hand using BrainVoyager. All graphs were created using an already existing Matlab file created by Daniel Berman, a doctoral student here in Dr. Julie Golomb's lab. My contribution to this code was adjusting file paths; originally the code pulled all the data off of a server we had set up at the lab. In order to run this already existing code on new data, I adjusted the locations of files called by the program. Included are:
 
    <h4>plot_xyz_small_MH.m : </h4>
-   
    Running this file creates the same graphics included under Experiment 1 Results of my poster. 
 
    BMF_plotting_functions_MH_pathed_GitHub.m : Running this file creates the same graphs included under Experiment 2 Results of my poster. 
