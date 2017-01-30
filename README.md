@@ -2,7 +2,7 @@
 This repository contains a collection of scripts I wrote during my undergraduate at The Ohio State University.
 
 <h2>CCBS Fall Retreat Poster </h2>
-I displayed my first poster at the annual Center for Cognitive and Brain Sciences Fall Retreat in 2016. For this project, I helped collect and analyze data using Matlab and BrainVoyager and compared my results with those generated in AFNI by PhD student Dan Berman. In this repository I made a folder (CCBS_retreat) including a PDF of my poster and all the code used to create the figures featured in the results. I created the inflated brain figures by hand using BrainVoyager and Adobe Illustrator. In addition, I modified an already existing Matlab code to generate the graphs. I contributed to this code mostly by adjusting file paths; originally the code pulled all the data off of a server we had set up at the lab. Included in this repository are the following relevant scripts:
+I displayed my first poster at the annual Center for Cognitive and Brain Sciences Fall Retreat in 2016. For this project, I helped collect and analyze data using Matlab and BrainVoyager and compared my results with those generated in AFNI by PhD student Dan Berman. In this repository I made a folder (/CCBS_retreat) including a PDF of my poster and all the code used to create the figures featured in the results. I created the inflated brain figures by hand using BrainVoyager and Adobe Illustrator. In addition, I modified an already existing Matlab code to generate the graphs. I contributed to this code mostly by adjusting file paths; originally the code pulled all the data off of a server we had set up at the lab. Included in this repository are the following relevant scripts:
 
       plot_xyz_small_MH.m
    Running this file creates the same graphics included under Experiment 1 Results of my poster. The colors seen on the poster were added using Adobe Illustrator. 
@@ -20,7 +20,7 @@ I displayed my first poster at the annual Center for Cognitive and Brain Science
 Unfortunately, a substantial amount of code I used during this project has been lost--this past fall, our lab changed computers used to analyze fMRI data. The Matlab code I used to automatically preprocess files in BrainVoyager did not survive the migration. To preprocess fMRI data for this poster, I customized a Matlab pipeline used by other members of Dr. Golomb's lab. I made some changes in the preprocessing options, tinkered with file pathing, and spent a fair amount of time debugging some for loops. 
 
 <h2>Miscellaneous Code</h2> 
-I've included some simple codes I created from scratch when I first started learning Matlab in 2014 and Python in 2016. These include: 
+I've included (in /Miscellaneous_code) some simple codes I created when I first started learning Matlab in 2014 and Python in 2016. These include: 
 
       Dice.m
    Here is a script used to roll any (interger) number of dice with any (interger) number of sides. 
@@ -41,7 +41,7 @@ I've included some simple codes I created from scratch when I first started lear
 In addition to the work here, I have completed tutorials on the following topics:
    
    <h4>MVPA tutorial: </h4>
-   I completed the tutorial accompanying Sprague, T.C., Saproo, S. & Serences, J.T. (2015) Visual attention mitigates information loss in small- and large-scale neural codes. Trends in Cognitive Sciences. The tutorial can be found at http://serenceslab.ucsd.edu/reviews.html. I have included the code I created while going through this tutorial:
+   I completed the tutorial accompanying Sprague, T.C., Saproo, S. & Serences, J.T. (2015) Visual attention mitigates information loss in small- and large-scale neural codes. Trends in Cognitive Sciences. The tutorial can be found at http://serenceslab.ucsd.edu/reviews.html. I have included the code I created while learning about MVPA in /Tutorials:
       
       Multivariate_tutorial.m
       
