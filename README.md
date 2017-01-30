@@ -19,7 +19,7 @@ I displayed my first poster at the annual CCBS Fall Retreat in 2016. For this pr
    <h4>fMRI data preprocessing :</h4>
 Unfortunately, a substantial amount of code I used during this project has been lost--our lab changed computers used to analyze fMRI data this past fall. The Matlab code I used to automatically preprocess files in BrainVoyager did not survive the migration. To preprocess fMRI data for this paper, I modified a Matlab pipeline used by most My contribution to this code was similar to the above projects; I adjusted code in an already existing pipeline. I made some changes in preprocessing options, tinkered with file pathing, and spent a fair amount of time debugging some for loops. 
 
-<h3>Miscellaneous Code</h3> 
+<h2>Miscellaneous Code</h2> 
 I've included some simple codes I created from scratch when I first started learning Matlab in 2014 and Python in 2016. These include: 
 
    <h4>Dice.m : </h4>
@@ -37,7 +37,7 @@ I've included some simple codes I created from scratch when I first started lear
    <h4>puzzle.py : </h4>
    Here is a script I wrote inspired by the following riddle: http://mindyourdecisions.com/blog/2016/07/03/distance-between-two-random-points-in-a-square-sunday-puzzle/. The first function sim_squ_trials(n) calculates the average from n trials the distance between two random points within a square with side lengths 1. The second function sim_circumf_trials(n) calculates the average from n trials the distance between two random points along a unit circle. The third function sim_circ_trials(n) calculates the average from n trials the distance between two random points within a unit circle. 
 
-<h3>Tutorials </h3>
+<h2>Tutorials </h2>
 
 In addition to the work here, I have completed tutorials on the following topics:
    
