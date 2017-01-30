@@ -34,7 +34,7 @@ I've included some simple codes I created from scratch when I first started lear
    <h4>fib.py : </h4>
    Here is a script to generate a list of the Fibonnaci sequence from its first term to its nth term. 
 
-   <h4>puzzle.py : <h4>
+   <h4>puzzle.py : </h4>
    Here is a script I wrote inspired by the following riddle: http://mindyourdecisions.com/blog/2016/07/03/distance-between-two-random-points-in-a-square-sunday-puzzle/. The first function sim_squ_trials(n) calculates the average from n trials the distance between two random points within a square with side lengths 1. The second function sim_circumf_trials(n) calculates the average from n trials the distance between two random points along a unit circle. The third function sim_circ_trials(n) calculates the average from n trials the distance between two random points within a unit circle. 
 
 <h3>Tutorials </h3>
@@ -48,11 +48,11 @@ In addition to the work here, I have completed tutorials on the following topics
       
       Multivariate_tutorial_manyvariables.m
    
-   <h4>Neural Networks in Python </h4>
+   <h4>Neural Networks in Python: </h4>
    I read Chapter 1 of Michael A. Nielsen's "Neural Networks and Deep Learning". This textbook explains the basics to creating an artificial neural network and includes a guided tutorial to creating an artificial neural network capable of recognizing handwritten letters and numbers. 
    
-   <h4>Matlab and PsychToolbox </h4>
+   <h4>Matlab and PsychToolbox: </h4>
    I completed a Matlab tutorial from Konkle Lab. This tutorial introduced me to some basics with PsychToolbox and advanced my understanding of Matlab commands. Most undergraduates in Dr. Julie Golomb's lab learn how to code with Matlab using this tutorial. 
    
-   <h4>Codeacademy Python tutorial </h4>
+   <h4>Codeacademy Python tutorial: </h4>
    I completed the free Python tutorial from Codeacademy to develop my skills with Python.  
