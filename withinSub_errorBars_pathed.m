@@ -2,7 +2,7 @@ function [newBackBweight_SubVal, newFrontBweight_SubVal, newMidBweight_Subval] =
 
 
 if strcmp(exp_vers,'xyz_small')
-    load('C:\Users\Matthew\Desktop\Research\Golomb\Poster\frontVSback_16subs_fwhm4_Allruns_5_1_500.mat')
+    load('frontVSback_16subs_fwhm4_Allruns_5_1_500.mat')
     %     roi_list = {'lhPPA','lhRSC','lhOPA','lhLOC','lhMT','lhFFA','lhEBA'}; % only use left hemisphere data
     
     back_Bweight_means = nanmean(subBackBweight(roiIdx,:),2);
@@ -25,7 +25,7 @@ if strcmp(exp_vers,'xyz_small')
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     %%%%%% BMF Version %%%%%%
 elseif strcmp(exp_vers,'BMF')
-    load('C:\Users\Matthew\Desktop\Research\Golomb\Poster\BMFcon_10subs_fwhm4_both_Allruns_7_6_1421.mat')
+    load('BMFcon_10subs_fwhm4_both_Allruns_7_6_1421.mat')
 
     back_Bweight_means = nanmean(subBackBweight(roiIdx,:),2);
     front_Bweight_means = nanmean(subFrontBweight(roiIdx,:),2);

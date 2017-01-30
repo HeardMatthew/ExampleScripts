@@ -4,9 +4,7 @@ function BMF_plotting_functions_MH_pathed_GitHub
 % this will likely be the most useful of these plotting functions 
 %%%%%%%%%%%%%%%%%%%%%%%%
 cc;
-cd('C:\Users\Matthew\Desktop\Research\Golomb\Poster')
-% load('/artichoke_home/fMRI/xyz_small/matlab_main/results/BMFcon_5subs_fwhm4_both_Allruns_5_1_447.mat')
-load('C:\Users\Matthew\Desktop\Research\Golomb\Poster\BMFcon_10subs_fwhm4_both_Allruns_7_6_1421.mat')
+load('BMFcon_10subs_fwhm4_both_Allruns_7_6_1421.mat') 
 
 depths = {'Front', 'Middle', 'Back'}; 
 roi_list = {'PPA','RSC','OPA','LOC','MT','FFA','EBA'}; % both hemispheres
