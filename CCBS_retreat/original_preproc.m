@@ -2,7 +2,9 @@
 % 2014.01.07 - CNK Modified
 % 2015.04.09 - AS modified
 
-% As with the other scripts in this folder, my work was limited to changing paths and parameters. -MH
+% This is the original pipeline used by Anna Shafer-Skelton in her project WhichLocHipp. As an introduction to preprocessing fMRI data,
+% I repeated her analysis using BrainVoyager and compared results. I made changes to file pathing so I could run analysis on a copy of
+% her data located elsewhere. -MH
 
 %%
 clear all
