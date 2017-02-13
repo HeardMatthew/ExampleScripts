@@ -1,6 +1,6 @@
 % As with other scripts in this folder, most of my work was limited to changing parameters and folder names. -MH
 subjects={'s03', 's14', 's15', 's16', 's17', 's18', 's19', 's20', 's21', 's22'};
-TR=2000;    % REMEMBER s03 and MT are special snowflakes (2000) otherwise (2500)
+TR=2000;    % REMEMBER s03 and MT localizer are different (2000) otherwise (2500)
 
 %Normal parameters
 params.rcond = 0;
