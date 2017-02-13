@@ -16,7 +16,7 @@ I displayed my first poster at the annual Center for Cognitive and Brain Science
       SEM_calc.m
    This is a function called by the two plot codes. I made <em>no</em> changes to this file. 
 
-   <h4>fMRI data preprocessing:</h4>
+<h2>fMRI data preprocessing:</h2>
 In addition to creating figures and presenting a poster, as part of my summer experience with Golomb Lab I preprocessed fMRI data. As I learned coding and experiment skills, I edited an already existing preprocessing pipeline (used by Anna Shafer-Skelton for her project WhichLocHipp) to preprocess the data for Dan Berman's project (BMF). I added the following files to this directory that best represent my contributions to this project: 
 
       SDMs_BMF_orig.m
