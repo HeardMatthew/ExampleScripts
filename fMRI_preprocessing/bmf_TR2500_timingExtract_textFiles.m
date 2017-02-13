@@ -127,11 +127,6 @@ for b = 1:numRuns
     fprintf(fidBack,'\n');
     fclose(fidBack);
 end
-%     
-%     copyfile(backFileName,sprintf('/artichoke_home/fMRI/xyz_small/%s/reg_data/',sub{s}))
-%     copyfile(frontFileName,sprintf('/artichoke_home/fMRI/xyz_small/%s/reg_data/',sub{s}))
-%     copyfile(midFileName,sprintf('/artichoke_home/fMRI/xyz_small/%s/reg_data/',sub{s}))
-%     copyfile(fixFileName,sprintf('/artichoke_home/fMRI/xyz_small/%s/reg_data/',sub{s}))
 
 end
 
