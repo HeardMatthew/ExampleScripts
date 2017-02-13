@@ -1,6 +1,8 @@
 %% BV scripting in Matlab - make VTCs for idenLocfMRI1
 % ck 2013.07.19
 
+% As with many of the other scripts in this folder, my work with this script was limited to adjusting parameters and folder paths. -MH
+
 %%
 clear all
 %%
