@@ -1,5 +1,7 @@
 function bmf_TR2500_timingExtract_textFiles
 
+% Once again, my work with this script was mostly limited to changing file paths and running the function with different parameters. -MH
+
 sub = {'4166JG'};
 numSubs = length(sub);
 cd('C:\Users\kupitz.1\Desktop\Folder for Matts Practice Analyses\BMF_con\1d files')
