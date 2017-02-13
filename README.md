@@ -17,8 +17,20 @@ I displayed my first poster at the annual Center for Cognitive and Brain Science
    This is a function called by the two plot codes. I made <em>no</em> changes to this file. 
 
    <h4>fMRI data preprocessing:</h4>
-Unfortunately, a substantial amount of code I used during this project has been lost--this past fall, our lab changed computers used to analyze fMRI data. The Matlab code I used to automatically preprocess files in BrainVoyager did not survive the migration. To preprocess fMRI data for this poster, I customized a Matlab pipeline used by other members of Dr. Golomb's lab. I made some changes in the preprocessing options, tinkered with file pathing, and spent a fair amount of time debugging some for loops. 
+In addition to creating figures and presenting a poster, as part of my summer experience with Golomb Lab I preprocessed fMRI data. As I learned coding and experiment skills, I edited an already existing preprocessing pipeline (used by Anna Shafer-Skelton for her project WhichLocHipp) to preprocess the data for Dan Berman's project (BMF). I added the following files to this directory that best represent my contributions to this project: 
 
+      SDMs_BMF_orig.m
+   This is the original file I used to create single design matrices (SDMs) while preprocessing fMRI data. I found it to be very time-consuming to change subject number and paths everytime I preprocessed a subject. 
+      
+      SMDs_BMF_wip.m
+   I decided to start an overhaul of SDMs_BMF_orig.m so I could preprocess each subject at the same time. However, I did not complete this new script by the time my summer was over. As the code currently stands, I had not edited the code that saves the SDM with the proper name or in the proper location. 
+      
+      preproc_BMF.m
+   This is the main script I used to preprocess data for Dan Berman's project. I changed parameters file names, and paths from the original, but the majority of the code is the same as the original WhichLocHipp.m version.
+      
+      preproc_WhichLocHipp.m
+   I included the original preprocessing pipeline I used so that the changes I made are more evident. 
+      
 <h2>Miscellaneous Code</h2> 
 I've included (in /Miscellaneous_code) some simple codes I created when I first started learning Matlab in 2014 and Python in 2016. These include: 
 
