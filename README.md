@@ -17,7 +17,7 @@ I displayed my first poster at the annual Center for Cognitive and Brain Science
    This is a function called by the two plot codes. I made <em>no</em> changes to this file. 
 
 <h2>fMRI data preprocessing:</h2>
-In addition to creating figures and presenting a poster, as part of my summer experience with Golomb Lab I preprocessed fMRI data. As I learned coding and experiment skills, I edited an already existing preprocessing pipeline (used by Anna Shafer-Skelton for her project WhichLocHipp) to preprocess the data for Dan Berman's project (BMF). I added the following files to this directory that best represent my contributions to this project: 
+In addition to creating figures and presenting a poster, as part of my summer experience with Golomb Lab I preprocessed fMRI data. As I learned coding and experiment skills, I edited an already existing preprocessing pipeline (used by Anna Shafer-Skelton, former Golomb Lab lab manager, for her project WhichLocHipp) to preprocess the data for Dan Berman's project (BMF). I added the following files to this directory that best represent my contributions to this project: 
 
       SDMs_BMF_orig.m
    This is the original file I used to create single design matrices (SDMs) while preprocessing fMRI data. I found it to be very time-consuming to change subject number and paths everytime I preprocessed a subject. 
