@@ -2,6 +2,8 @@
 % 2014.01.07 - CNK Modified
 % 2015.04.09 - AS modified
 
+% As with the other scripts in this folder, my work was limited to changing paths and parameters. -MH
+
 %%
 clear all
 %%
@@ -47,8 +49,6 @@ locfiles={ ...
 % [18 19 20] }; % s14
 % };
 
-% wait, so does this mean it's always hard-coded to be the first subject
-% not commented out?
 firstrun_name={1};  %1st run name, almost always 1 unless problem
 
 %which files to run ( setting all equal to 1 here, i.e. running all)
@@ -64,7 +64,6 @@ numsubjs=size(subject,2);
 %you are motion correcting.
 do_MC_override = 1;
 
-%FIX ME
 for s=1:numsubjs
     if do_MC_override
         MCTargetFile = ['C:\Users\kupitz.1\Desktop\' folder filesep subject{s} '_whichLocHipp1\funcRun1\' subject{s} '_funcRun1.fmr'];
