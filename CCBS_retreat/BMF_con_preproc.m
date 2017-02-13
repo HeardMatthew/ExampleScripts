@@ -3,19 +3,24 @@
 % 2015.04.09 - AS modified
 % 2016.07.10 - MH modified
 % 2016.08.10 - MH modified
+% 2017.02.13 - MH added notes
+
+% This is a modified version of the fMRI preprocessing pipeline used in Golomb Lab. Most of the changes
+% I made were limited to changing file paths and inputting subject number by hand. -MH
 
 %%
 clear all
 %%
 delete_intermediates = 1;
 
+% I made sure the following sections were all correct depending on which subject was being preprocessed. -MH
+
 folder=['BMF_con'];
-study=['BMF_con'];      % Now your pathing is pretty bad. Watch out if 
-                        % recycling this for another study
-subject={'s20'};    % change this by hand!
+study=['BMF_con'];
+subject={'s20'};
 
 num_funcruns={ ...
-%     2 % s03, CHECK TR since the number of volumes is different
+%     2 % s03; since this data was from an earlier study, the scanning parameters were different and had to be adjusted manually. -MH
 %     2 % s14
 %     2 % s15
 %     2 % s16
@@ -25,7 +30,7 @@ num_funcruns={ ...
     3 % s20
 %     3 % s21
 %     3 % s22
-%     3 % s18_2,
+%     3 % s18_2; subject 18 was causing errors in the code. This copy was added as a troubleshooting method. -MH
     };
 
 firstfiles= { ...
@@ -85,7 +90,8 @@ numsubjs=size(subject,2);
 %you are motion correcting.
 do_MC_override = 1;
 
-%FIX ME
+% In the following section, I had to adjust the file paths. When I originally received the code, the file paths were hard coded like so.
+% Rather than overhaul the pathing to use local addresses, I chose to keep the hard coding. Why fix what isn't broken? -MH
 for s=1:numsubjs
     if do_MC_override
         MCTargetFile = ['C:\Users\kupitz.1\Desktop\Folder for Matts Practice Analyses\' folder filesep subject{s} '\BMFcon1\' subject{s} '_BMFcon1.fmr'];
@@ -123,6 +129,7 @@ for s=1:numsubjs
         
         
         % fmr variables (make sure correct for experiment)
+        % As mentioned earlier, the only time these changed was for subject 3. -MH
         fileType='DICOM';
         firstFile=[subject_path{s} 'DICOMS\' dicomPrefix firstfilenum '-0001-00001.dcm'];
         createAMR=true;
@@ -198,7 +205,7 @@ for s=1:numsubjs
     movieMC = 0; % save movie? not available yet?
     logMC = 1;
     
-    % temporal filtering. I'm not quite sure how to handle this. 
+    % temporal filtering
     filterVal = 1/128; % 128-s cutoff
     filterUnits = 'Hz';
     
